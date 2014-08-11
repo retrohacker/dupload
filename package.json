@@ -1,0 +1,29 @@
+{
+  "name": "docker-upload",
+  "version": "1.0.0",
+  "description": "Easily script the creation of Dockerfiles that setup the FS of a container.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "varstring": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wblankenship/dupload.git"
+  },
+  "author": "William Blankenship <william.jblankenship@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wblankenship/dupload/issues"
+  },
+  "homepage": "https://github.com/wblankenship/dupload",
+  "keywords": [
+    "docker"
+  ]
+}
