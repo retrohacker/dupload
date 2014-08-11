@@ -6,7 +6,7 @@ docker-upload
 From node.js
 
 ```js
-var dUpload = require("../index.js")
+var dUpload = require("docker-upload")
 
 var upload = new dUpload("./Dockerfile.tmpl","./cwd")
 upload.mkdir("/opt/usr")
@@ -19,7 +19,7 @@ upload.commit(function(e,dockerfile) {
 })
 ```
 
-Inside `Dockerfile.tmpl`
+Inside _Dockerfile.tmpl_
 
 ```text
 FROM nodesource/node:jessie
