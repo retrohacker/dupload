@@ -1,6 +1,8 @@
 docker-upload
 ===
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/retrohacker/dupload.svg)](https://greenkeeper.io/)
+
 # Usage
 
 From node.js
